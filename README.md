@@ -97,6 +97,3 @@ Before you begin, make sure you have the following installed:
 
 The application uses a custom error handler to catch and return appropriate error messages.
 
-## Project Structure
-
-/project-root |-- /config | |-- dbConn.js # MongoDB connection logic | |-- /controllers | |-- main.Controller.js # Controller for login and dashboard | |-- /middleware | |-- auth.js # Middleware for authentication | |-- error-handler.js # Middleware for handling errors | |-- /routes | |-- main.js # Routes for login and dashboard | |-- .env # Environment variables |-- app.js # Main application file |-- package.json # Project dependencies and scripts |-- README.md # This file
